@@ -1,9 +1,0 @@
-//Turning on the PD12 LED
-
-#include <stdint.h>
-
-int main(void)
-{
-    /* Loop forever */
-	for(;;);
-}
