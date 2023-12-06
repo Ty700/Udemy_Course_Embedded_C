@@ -1,0 +1,22 @@
+//Turning on the PD12 LED
+
+#include <stdint.h>
+#include <stdio.h>
+
+#define CCREG_ADDR (uint8_t *)0x40023830
+#define GPIOD_MODE_ADDR (uint8_t *)0x40020C00
+#define GPIOD_OUTPUT_ADDR (uint8_t *)0x50020C14
+
+int main(void)
+{
+    //Clock for GPIOD reg addr
+	uint8_t *p_ccreg_addr = CCREG_ADDR;
+
+	//Setting third bit of CCREG_ADDR - controls clock for GPIOD
+	*p_ccreg_addr |= (uint8_t)16;
+
+	printf("%p", *p_ccreg_addr);
+
+
+	for(;;);
+}
