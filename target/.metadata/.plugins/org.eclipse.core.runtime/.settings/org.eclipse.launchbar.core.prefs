@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001_Sec8_HelloWorld_Semihosting Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:002_SizeOf Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001_Sec8_HelloWorld Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:003_Add,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_Floating_Point,org.eclipse.launchbar.core.descriptorType.default\:004_Floating_Point Debug,org.eclipse.launchbar.core.descriptorType.default\:005_Scanf_Exercise Debug,org.eclipse.launchbar.core.descriptorType.default\:007_Pointer_Exercise,org.eclipse.launchbar.core.descriptorType.default\:006_Scanf_ASCII_Exercise,org.eclipse.launchbar.core.descriptorType.default\:008_If_Exercise Debug,org.eclipse.launchbar.core.descriptorType.default\:009_LED_ON_Exercise Debug,org.eclipse.launchbar.core.descriptorType.default\:009_LED_ON_Exercise Debug (1)
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001_Sec8_HelloWorld_Semihosting Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:002_SizeOf Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001_Sec8_HelloWorld Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:003_Add,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_Floating_Point,org.eclipse.launchbar.core.descriptorType.default\:004_Floating_Point Debug,org.eclipse.launchbar.core.descriptorType.default\:005_Scanf_Exercise Debug,org.eclipse.launchbar.core.descriptorType.default\:007_Pointer_Exercise,org.eclipse.launchbar.core.descriptorType.default\:006_Scanf_ASCII_Exercise,org.eclipse.launchbar.core.descriptorType.default\:008_If_Exercise Debug,org.eclipse.launchbar.core.descriptorType.default\:010_LED_ON_Bitwise_Exercise Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:011_LED_ON_OFF_LOOP Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:011_LED_BLINK,org.eclipse.launchbar.core.descriptorType.default\:012_PA0_PIN_READ Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:012_PA0_PIN_READ
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001_Sec8_HelloWorld\ Debug\ (1)/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001_Sec8_HelloWorld\ Debug\ (1)/activeLaunchTarget=null\:---
@@ -10,6 +10,13 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001_Sec8_HelloWorld\ Debug/acti
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:003_Add/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_FloatingPoint/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_FloatingPoint/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:009_LED_ON_Exercise\ Debug\ (1)/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:010_LED_ON_Bitwise_Exercise/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:010_LED_ON_Bitwise_Exercise/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:011_LED_BLINK/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:011_LED_BLINK/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:012_PA0_PIN_READ/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:012_PA0_PIN_READ/activeLaunchTarget=null\:---
 org.eclipse.launchbar.core.descriptorType.default\:001_Sec8_HelloWorld\ Debug/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:001_Sec8_HelloWorld\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:001_Sec8_HelloWorld_Semihosting\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
@@ -18,4 +25,9 @@ org.eclipse.launchbar.core.descriptorType.default\:004_FloatingPoint\ Debug/acti
 org.eclipse.launchbar.core.descriptorType.default\:004_Floating_Point\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:007_Pointer_Exercise/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:007_Pointer_Exercise/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:008_If_Exercise\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:009_LED_ON_Exercise\ Debug\ (1)/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:010_LED_ON_Bitwise_Exercise\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:011_LED_ON_OFF_LOOP\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:012_PA0_PIN_READ\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:012_PA0_PIN_READ\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
