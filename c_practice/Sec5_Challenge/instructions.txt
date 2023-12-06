@@ -1,0 +1,5 @@
+Write a program to do mathematical operations such as addition, subtraction, multiplication, and division of ints.
+
+Do all the mathematical operations in seperate functions in a filed called math.called
+
+Call the functions from main.c to test them

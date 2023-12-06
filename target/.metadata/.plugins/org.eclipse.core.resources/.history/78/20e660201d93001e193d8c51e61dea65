@@ -1,0 +1,7 @@
+
+
+#include <stdio.h>
+
+int main(){
+	float number = 12.12345678910;
+}

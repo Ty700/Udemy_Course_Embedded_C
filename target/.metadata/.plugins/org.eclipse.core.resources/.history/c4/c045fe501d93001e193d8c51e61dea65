@@ -1,0 +1,11 @@
+
+
+#include <stdio.h>
+
+int main(){
+	float number = 12.12345678910;
+
+	printf("%d", number);
+
+	return 0;
+}

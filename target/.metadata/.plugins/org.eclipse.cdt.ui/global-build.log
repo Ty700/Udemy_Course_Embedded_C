@@ -1,0 +1,87 @@
+22:14:22 **** Build of configuration Debug for project 007_Pointer_Exercise ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: 007_Pointer_Exercise
+Invoking: GCC C Linker
+gcc  -o "007_Pointer_Exercise" ./src/main.o   
+Finished building target: 007_Pointer_Exercise
+ 
+22:14:27 **** Incremental Build of configuration Debug for project 007_Pointer_Exercise ****
+make all 
+make: Nothing to be done for 'all'.
+22:16:09 **** Incremental Build of configuration Debug for project 007_Pointer_Exercise ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: 007_Pointer_Exercise
+Invoking: GCC C Linker
+gcc  -o "007_Pointer_Exercise" ./src/main.o   
+Finished building target: 007_Pointer_Exercise
+ 
+22:16:38 **** Incremental Build of configuration Debug for project 007_Pointer_Exercise ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: 007_Pointer_Exercise
+Invoking: GCC C Linker
+gcc  -o "007_Pointer_Exercise" ./src/main.o   
+Finished building target: 007_Pointer_Exercise
+ 
+22:17:18 **** Incremental Build of configuration Debug for project 007_Pointer_Exercise ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: 007_Pointer_Exercise
+Invoking: GCC C Linker
+gcc  -o "007_Pointer_Exercise" ./src/main.o   
+Finished building target: 007_Pointer_Exercise
+ 
+22:17:31 **** Incremental Build of configuration Debug for project 007_Pointer_Exercise ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: 007_Pointer_Exercise
+Invoking: GCC C Linker
+gcc  -o "007_Pointer_Exercise" ./src/main.o   
+Finished building target: 007_Pointer_Exercise
+ 
+19:21:53 **** Build of configuration Debug for project 008_If_Exercise ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: 008_If_Exercise
+Invoking: GCC C Linker
+gcc  -o "008_If_Exercise" ./src/main.o   
+Finished building target: 008_If_Exercise
+ 
+19:22:13 **** Build of configuration Debug for project 006_Scanf_ASCII_Exercise ****
+make all 
+make: Nothing to be done for 'all'.
+19:22:23 **** Incremental Build of configuration Debug for project 008_If_Exercise ****
+make all 
+make: Nothing to be done for 'all'.
+19:22:25 **** Incremental Build of configuration Debug for project 008_If_Exercise ****
+make all 
+make: Nothing to be done for 'all'.
+19:22:30 **** Incremental Build of configuration Debug for project 008_If_Exercise ****
+make all 
+make: Nothing to be done for 'all'.
