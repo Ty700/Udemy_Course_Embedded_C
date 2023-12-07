@@ -31,25 +31,25 @@ int main(void)
 	//Enabling clock for GPIOD and GPIOA
 	//GPIOD = 3rd Index Bit
 	//GPIOA = 0th Index Bit
-	uint32_t *const p_rccGPIOD = RCC_GPIO_EN_ADDR;
+	uint32_t volatile *const p_rccGPIOD = RCC_GPIO_EN_ADDR;
 	*p_rccGPIOD |= (1 << 3) + 1;
 
 	//Changing GPIOD30 (PD15) Mode to output
-	uint32_t *const p_gpioDMode = GPIOD_MODE_ADDR;
+	uint32_t volatile *const p_gpioDMode = GPIOD_MODE_ADDR;
 	*p_gpioDMode &= ~(3 << 30);
 	*p_gpioDMode |= (1 << 30);
 
-	uint32_t *const p_PD15 = PD15_OUTPUT_ADDR;
+	uint32_t volatile *const p_PD15 = PD15_OUTPUT_ADDR;
 
 	//Changing GPIOA to Input
-	uint32_t *const p_gpioAMode = GPIOA_MODE_ADDR;
+	uint32_t volatile *const p_gpioAMode = GPIOA_MODE_ADDR;
 
 	//First two bits needs to be 0 for PA0 input
 	*p_gpioAMode &= ~(3 << 0);
 
 	for(;;){
 		//PA0 Input Register - Boolean
-		uint8_t PA0_status = (uint8_t)(*PA0_INPUT_ADDR & 0x1);
+		uint8_t volatile PA0_status = (uint8_t)(*PA0_INPUT_ADDR & 0x1);
 		if(PA0_status){
 			*p_PD15 |= (1 << 15);
 		} else {

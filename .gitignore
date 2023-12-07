@@ -2,3 +2,6 @@
 target/*/.settings/
 target/.plugins/
 target/.metadata/.ide.log
+host/.metadata/*
+host/*/.settings/
+
