@@ -2233,3 +2233,27 @@ java.lang.Exception: No valid SVD data file found for project: Package_Union_Bit
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+!SESSION 2023-12-11 18:49:12.491 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-12-11 18:49:18.033
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-12-11 18:49:18.034
+!MESSAGE Log4j2 initialized with config file /home/tyler/embedded_c_ws/my_ws/host/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-12-11 18:49:20.969
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-11 18:51:29.323
+!MESSAGE Indexed 'RCC_AHB1_EN_BIT_FIELD' (2 sources, 53 headers) in 0.517 sec: 1,948 declarations; 2,830 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-11 19:12:49.338
+!MESSAGE Indexed 'GPIOx_ODR' (3 sources, 0 headers) in 0.02 sec: 93 declarations; 57 references; 11 unresolved inclusions; 0 syntax errors; 56 unresolved names (27%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-11 19:25:02.537
+!MESSAGE Indexed '001Toggle_LED_Bitfields' (3 sources, 53 headers) in 0.103 sec: 1,950 declarations; 2,832 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
