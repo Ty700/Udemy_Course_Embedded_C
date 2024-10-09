@@ -2,7 +2,7 @@
 <Configuration status="info">
     <ThresholdFilter level="INFO"/>
     <Appenders>
-        <RollingFile name="DEBUGFILE" fileName="/home/tyler/embedded_c_ws/my_ws/host/.metadata/.ide.log" filePattern="/home/tyler/embedded_c_ws/my_ws/host/.metadata/.ide.log-%d{yyyy-MM-dd}.log">
+        <RollingFile name="DEBUGFILE" fileName="/home/tyler/Udemy_Courses/Embedded_C/host/.metadata/.ide.log" filePattern="/home/tyler/Udemy_Courses/Embedded_C/host/.metadata/.ide.log-%d{yyyy-MM-dd}.log">
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} [%p] %c{1}:%L - %m%n" />
             <Policies>
                 <TimeBasedTriggeringPolicy interval="1" modulate="true" />
